@@ -13233,4 +13233,69 @@ input[type=range] {
   margin-bottom: 0;
 }
 
+.circles {
+  border: solid 1px #15ACC0;
+  padding: 0.1rem 0.6rem;
+  border-radius: 2rem;
+}
+
+.tooltips {
+  font-weight: normal;
+  color: #15ACC0;
+  text-decoration: none;
+  position: relative;
+}
+.tooltips:hover {
+  cursor: pointer;
+}
+.tooltips:hover .tooltips-box {
+  display: inline-block;
+}
+
+.tooltips-box {
+  color: #f3f3f3;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: none;
+  position: absolute;
+  background: #283252;
+  line-height: 20px;
+  z-index: 500;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 5px;
+  top: 40px;
+  right: -45%;
+  width: 250px;
+}
+.tooltips-box::after {
+  content: "";
+  display: block;
+  border-top: 7px solid #283252;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  top: -5px;
+  left: 215px;
+  transform: rotate(180deg);
+}
+@media screen and (min-width: 830px) {
+  .tooltips-box {
+    left: 40px;
+    right: 0;
+    top: -10px;
+    width: 280px;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .tooltips-box::after {
+    top: 43px;
+    left: -10px;
+    transform: rotate(90deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
