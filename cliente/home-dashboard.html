@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+
+</head>
+<body class="dashboard-user">
+    <!--Nav primario-->
+    <aside class="color-nav nav-user d-flex flex-column">
+        <div class="d-flex flex-column align-items-center">
+            <div class="logo">
+                <img  class="w-100 logo" src="../assets/img/nav/logos/logo-blanco.svg" alt="">
+            </div>
+            <div>
+                <div>
+                    <img src="../assets/img/nav/config.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/cubo.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/mas.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/search.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column  align-items-center">
+
+                <div>
+                    <img src="../assets/img/nav/config.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/cubo.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/mas.svg" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/nav/search.svg" alt="">
+                </div>
+                <div class="avatar">
+                    <img class="img-100 rounded-circle" src="../assets/img/nav/57.png" alt="">
+                </div>
+
+        </div>
+    </aside>
+    <!--Termino Nav primario-->
+    <!--Nav secundario-->
+    <div class="sidebar-panel is-generic">
+        <div class="content-sidebar">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <h3 class="layout-title">Layaouts</h3>
+                <button class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.4em" height="1.4em" viewBox="0 0 24 24" data-icon="feather:x" class="iconify iconify--feather"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6L6 18M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Title 1
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>subtitle 1</li>
+                        <li>subtitle 2</li>
+                        <li>subtitle 3</li>
+                        <li>subtitle 4</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Title 2
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>subtitle 1</li>
+                            <li>subtitle 2</li>
+                            <li>subtitle 3</li>
+                            <li>subtitle 4</li>
+                          </ul></div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+    <!--Termino Nav secundario-->
+    <!--Contenido-->
+    <div class="row view-wrapper">
+        <div class="col-12 d-flex justify-content-between">
+            <!--Header-->
+            <div class="page-title mt-5 pt-5 pt-sm-0 mt-sm-0">
+                <div class="py-3 d-flex align-items-center">
+                    <div class="nav-media img-left">
+                        <span class="me-3 menu-toggle has-chevron">
+                            <span class="icon-box-toggle">
+                                <span class="rotate"><i aria-hidden="true" class="icon-line-top"></i><i aria-hidden="true" class="icon-line-center"></i><i aria-hidden="true" class="icon-line-bottom"></i>
+                                </span>
+                            </span>
+                        </span>
+                        <img  class="logo d-block d-sm-none" src="../assets/img/nav/logos/logo-negro.svg" alt="">
+                        <img class="user-photo me-sm-3 d-block" alt="" src="../assets/img/nav/pers/02.png">
+                    
+                    </div>
+
+                    <h1 class="title">
+                        Usuarios
+                    </h1>
+                </div>
+                <div class="toolbar ml-auto desktop-toolbar">
+                  <!--Icono 1-->
+                  <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                    <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_1508)">
+                        <path d="M8.25195 10.6211C9.35652 10.6211 10.2519 9.72566 10.2519 8.62109C10.2519 7.51652 9.35652 6.62109 8.25195 6.62109C7.14738 6.62109 6.25195 7.51652 6.25195 8.62109C6.25195 9.72566 7.14738 10.6211 8.25195 10.6211Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.1852 10.6212C13.0965 10.8223 13.07 11.0453 13.1092 11.2616C13.1484 11.4778 13.2515 11.6774 13.4052 11.8345L13.4452 11.8745C13.5692 11.9983 13.6675 12.1454 13.7346 12.3073C13.8017 12.4691 13.8363 12.6426 13.8363 12.8178C13.8363 12.9931 13.8017 13.1666 13.7346 13.3284C13.6675 13.4903 13.5692 13.6373 13.4452 13.7612C13.3214 13.8851 13.1743 13.9835 13.0125 14.0506C12.8506 14.1177 12.6771 14.1522 12.5019 14.1522C12.3267 14.1522 12.1532 14.1177 11.9913 14.0506C11.8294 13.9835 11.6824 13.8851 11.5585 13.7612L11.5185 13.7212C11.3614 13.5675 11.1619 13.4644 10.9456 13.4252C10.7293 13.386 10.5063 13.4124 10.3052 13.5012C10.108 13.5857 9.93987 13.726 9.82142 13.9049C9.70297 14.0837 9.6394 14.2933 9.63855 14.5078V14.6212C9.63855 14.9748 9.49807 15.3139 9.24802 15.564C8.99798 15.814 8.65884 15.9545 8.30522 15.9545C7.95159 15.9545 7.61246 15.814 7.36241 15.564C7.11236 15.3139 6.97188 14.9748 6.97188 14.6212V14.5612C6.96672 14.3405 6.89529 14.1265 6.76689 13.947C6.63848 13.7674 6.45904 13.6307 6.25188 13.5545C6.0508 13.4658 5.82775 13.4393 5.61149 13.4785C5.39523 13.5177 5.19567 13.6208 5.03855 13.7745L4.99855 13.8145C4.87472 13.9385 4.72767 14.0368 4.5658 14.1039C4.40394 14.171 4.23044 14.2056 4.05522 14.2056C3.87999 14.2056 3.70649 14.171 3.54463 14.1039C3.38276 14.0368 3.23571 13.9385 3.11188 13.8145C2.98791 13.6907 2.88957 13.5436 2.82247 13.3818C2.75537 13.2199 2.72083 13.0464 2.72083 12.8712C2.72083 12.696 2.75537 12.5225 2.82247 12.3606C2.88957 12.1987 2.98791 12.0517 3.11188 11.9278L3.15188 11.8878C3.30557 11.7307 3.40867 11.5312 3.44788 11.3149C3.4871 11.0986 3.46063 10.8756 3.37188 10.6745C3.28737 10.4773 3.14705 10.3092 2.96819 10.1907C2.78933 10.0723 2.57974 10.0087 2.36522 10.0078H2.25188C1.89826 10.0078 1.55912 9.86737 1.30907 9.61732C1.05902 9.36727 0.918549 9.02813 0.918549 8.67451C0.918549 8.32089 1.05902 7.98175 1.30907 7.7317C1.55912 7.48165 1.89826 7.34118 2.25188 7.34118H2.31188C2.53254 7.33601 2.74655 7.26459 2.92608 7.13618C3.10561 7.00778 3.24236 6.82833 3.31855 6.62118C3.40729 6.4201 3.43376 6.19705 3.39455 5.98078C3.35534 5.76452 3.25224 5.56496 3.09855 5.40784L3.05855 5.36784C2.93458 5.24401 2.83623 5.09696 2.76914 4.9351C2.70204 4.77323 2.6675 4.59973 2.6675 4.42451C2.6675 4.24929 2.70204 4.07579 2.76914 3.91392C2.83623 3.75206 2.93458 3.60501 3.05855 3.48118C3.18238 3.35721 3.32943 3.25886 3.49129 3.19176C3.65316 3.12466 3.82666 3.09013 4.00188 3.09013C4.1771 3.09013 4.3506 3.12466 4.51247 3.19176C4.67433 3.25886 4.82138 3.35721 4.94522 3.48118L4.98522 3.52118C5.14233 3.67487 5.34189 3.77797 5.55816 3.81718C5.77442 3.85639 5.99747 3.82992 6.19855 3.74118H6.25188C6.44906 3.65667 6.61723 3.51635 6.73568 3.33749C6.85413 3.15863 6.91769 2.94903 6.91855 2.73451V2.62118C6.91855 2.26755 7.05902 1.92841 7.30907 1.67837C7.55912 1.42832 7.89826 1.28784 8.25188 1.28784C8.6055 1.28784 8.94464 1.42832 9.19469 1.67837C9.44474 1.92841 9.58522 2.26755 9.58522 2.62118V2.68118C9.58607 2.8957 9.64964 3.10529 9.76809 3.28415C9.88654 3.46301 10.0547 3.60333 10.2519 3.68784C10.453 3.77659 10.676 3.80306 10.8923 3.76384C11.1085 3.72463 11.3081 3.62153 11.4652 3.46784L11.5052 3.42784C11.629 3.30387 11.7761 3.20553 11.938 3.13843C12.0998 3.07133 12.2733 3.03679 12.4485 3.03679C12.6238 3.03679 12.7973 3.07133 12.9591 3.13843C13.121 3.20553 13.2681 3.30387 13.3919 3.42784C13.5159 3.55167 13.6142 3.69872 13.6813 3.86059C13.7484 4.02245 13.7829 4.19595 13.7829 4.37118C13.7829 4.5464 13.7484 4.7199 13.6813 4.88176C13.6142 5.04363 13.5159 5.19068 13.3919 5.31451L13.3519 5.35451C13.1982 5.51163 13.0951 5.71119 13.0559 5.92745C13.0167 6.14371 13.0431 6.36676 13.1319 6.56784V6.62118C13.2164 6.81835 13.3567 6.98652 13.5356 7.10497C13.7144 7.22342 13.924 7.28699 14.1385 7.28784H14.2519C14.6055 7.28784 14.9446 7.42832 15.1947 7.67837C15.4447 7.92842 15.5852 8.26755 15.5852 8.62118C15.5852 8.9748 15.4447 9.31394 15.1947 9.56398C14.9446 9.81403 14.6055 9.95451 14.2519 9.95451H14.1919C13.9774 9.95536 13.7678 10.0189 13.5889 10.1374C13.41 10.2558 13.2697 10.424 13.1852 10.6212V10.6212Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1_1508">
+                        <rect width="16" height="16" fill="white" transform="translate(0.251831 0.621094)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                                                   
+                        <span class="new-indicator pulsate"></span>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="heading">
+                                <div class="heading-left">
+                                    <h6 class="heading-title ">Notificación</h6>
+                                </div>
+                                <div class="heading-right">
+                                    <a href="#" class="notification-link"> Ver todas </a>
+                                </div>
+                            </div>
+                            <ul class="notification-list">
+                                <li><a class="notification-item">
+                                    <div class="img-left me-2">
+                                        <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                    </div>
+                                    <div class="user-content">
+                                        <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                        <p class="time">1 hora antes</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Fin Icono 1-->
+                  <!--Icono 2-->
+                    <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                        <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_1512)">
+                            <path d="M9.24559 14.6213C9.12838 14.8233 8.96015 14.991 8.75774 15.1076C8.55533 15.2242 8.32584 15.2856 8.09225 15.2856C7.85867 15.2856 7.62918 15.2242 7.42677 15.1076C7.22436 14.991 7.05613 14.8233 6.93892 14.6213M12.0923 5.95459C12.0923 4.89372 11.6708 3.87631 10.9207 3.12616C10.1705 2.37602 9.15312 1.95459 8.09225 1.95459C7.03139 1.95459 6.01397 2.37602 5.26383 3.12616C4.51368 3.87631 4.09225 4.89372 4.09225 5.95459C4.09225 10.6213 2.09225 11.9546 2.09225 11.9546H14.0923C14.0923 11.9546 12.0923 10.6213 12.0923 5.95459Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_1512">
+                            <rect width="16" height="16" fill="white" transform="translate(0.0922546 0.621094)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                            <span class="new-indicator pulsate"></span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="heading">
+                                    <div class="heading-left">
+                                        <h6 class="heading-title ">Notificación</h6>
+                                    </div>
+                                    <div class="heading-right">
+                                        <a href="#" class="notification-link"> Ver todas </a>
+                                    </div>
+                                </div>
+                                <ul class="notification-list">
+                                    <li><a class="notification-item">
+                                        <div class="img-left me-2">
+                                            <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                        </div>
+                                        <div class="user-content">
+                                            <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                            <p class="time">1 hora antes</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!--Fin Icono 2-->
+                        <!-- Icono 3-->
+                        <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                          <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M2.93266 2.62109H7.59933V7.28776H2.93266V2.62109ZM10.266 2.62109H14.9327V7.28776H10.266V2.62109ZM10.266 9.95443H14.9327V14.6211H10.266V9.95443ZM2.93266 9.95443H7.59933V14.6211H2.93266V9.95443Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>                              
+                              <span class="new-indicator pulsate"></span>
+                          </div>
+                          <div class="dropdown-menu">
+                              <div class="dropdown-content">
+                                  <div class="heading">
+                                      <div class="heading-left">
+                                          <h6 class="heading-title ">Notificación</h6>
+                                      </div>
+                                      <div class="heading-right">
+                                          <a href="#" class="notification-link"> Ver todas </a>
+                                      </div>
+                                  </div>
+                                  <ul class="notification-list">
+                                      <li><a class="notification-item">
+                                          <div class="img-left me-2">
+                                              <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                          </div>
+                                          <div class="user-content">
+                                              <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                              <p class="time">1 hora antes</p>
+                                          </div>
+                                      </a>
+                                  </li>
+                                  <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        <!--Fin Icono 3-->
+                </div>
+            </div>
+            <!--Termino Header-->
+        </div>
+        <!--Inicia Tabs-->
+        <div class="col-12 d-flex mt-3 mt-sm-0 mt-lg-5 flex-column flex-sm-row justify-content-between align-items-center">
+          <ul class="nav nav-pills mb-2 mb-sm-0" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Todos</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Importantes</button>
+              </li>
+          </ul>
+          <div class="">
+              <div class="control has-icon">
+                  <input class="input new w-100" type="email" placeholder="Buscador">
+                  <label class="form-icon search" for="">
+                      <svg width="24" height="24" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_258_3270)">
+                          <path d="M11.7294 9.85843L9.88579 8.01574C10.5504 7.23363 10.9522 6.22242 10.9522 5.11838C10.9522 2.64697 8.93993 0.635742 6.46658 0.635742C3.99324 0.635742 1.98163 2.64697 1.98163 5.11838C1.98163 7.58979 3.9939 9.60102 6.46658 9.60102C7.45592 9.60102 8.37148 9.27843 9.11382 8.73399L10.9838 10.603C11.0866 10.7057 11.2216 10.7571 11.3566 10.7571C11.4917 10.7571 11.626 10.7057 11.7294 10.603C11.9349 10.3976 11.9349 10.0638 11.7294 9.85843ZM3.03552 5.11838C3.03552 3.22763 4.57485 1.68909 6.46658 1.68909C8.35831 1.68909 9.89765 3.22763 9.89765 5.11838C9.89765 7.00913 8.35831 8.54768 6.46658 8.54768C4.57485 8.54768 3.03552 7.00913 3.03552 5.11838Z" fill="#EAEBEF"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_258_3270">
+                          <rect width="16" height="15" fill="white" transform="translate(0.932617 0.195557)"/>
+                          </clipPath>
+                          </defs>
+                          </svg>
+                          
+                  </label>
+              </div>
+          </div>
+      </div>
+        <!--Inicia Termina Tabs-->
+        <!-- Inicio Content tabs-->
+        <div class="tab-content pb-2" id="pills-tabContent">
+          <!--Inicia Pills 1-->
+          <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="card mt-3 mb-2 d-flex ">   
+              <div class="table-responsive pie-table">
+              <table class="table table-hover">
+             
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n2 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #1</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible-table">100% Completado</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn disabled orange order-md-1 me-lg-4 mt-lg-0" aria-disabled="true">Terminado</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n1 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran empresa #2</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n3 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #3</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n4 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #4</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n1 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #5</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>  
+              </div> 
+            </div> 
+             <!-- Paginacion-->
+             <nav aria-label="..." class="d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+              <p class="message">Mostrando <span>1</span> a <span>10</span> de 16 entradas</p>
+              </div>
+              <div class="d-flex">
+                <ul class="pagination pagination-sm">
+                  <li class="page-item controls">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&lt;</span>
+                    </a>
+                  </li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">1</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li> 
+                  
+                  <li class="page-item controls">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&gt;</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!--Fin Paginacion-->
+          </div>
+          <!--Termina Pills 1-->
+          <!--Inicia Pills 2-->
+          
+          <div class="tab-pane fade " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="card my-3 d-flex ">   
+              <div class="table-responsive pie-table">
+              <table class="table table-hover">
+             
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n2 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #6</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible-table">100% Completado</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn disabled orange order-md-1 me-lg-4 mt-lg-0" aria-disabled="true">Terminado</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n1 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #7</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n3 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran empresa #8</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n4 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #9</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_258_1364)">
+                              <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_258_1364">
+                              <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                            
+                            
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </label>
+                      </div>
+                    </th>
+                    <td>
+                      <div class="grafica">
+                        <button class="btn circle-two-n1 order-md-2 ">
+                            SG
+                        </button>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Gran Empresa #10</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                          <div class="d-flex align-items-center ">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_258_1364)">
+                            <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#15ACC0" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_258_1364">
+                            <rect width="12" height="12" fill="#15ACC0" transform="translate(0.0673828 0.433838)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            <p class="responsible-table">100% Completado</p>
+                        </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Madurez</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <div class="me-md-3">
+                        <h4 class="text-center text-md-start">Fecha Termino</h4>
+                        <div class="d-flex align-items-center data-icon justify-content-center justify-content-md-between flex-wrap">
+                            <div class="d-flex align-items-center ">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_1364)">
+                                <path d="M11.0674 5.97389V6.43389C11.0668 7.5121 10.7176 8.56123 10.0721 9.4248C9.42647 10.2884 8.51903 10.9201 7.48506 11.2258C6.4511 11.5316 5.34601 11.4948 4.33462 11.1212C3.32322 10.7475 2.45971 10.0569 1.87286 9.15243C1.28602 8.24791 1.00728 7.17792 1.07822 6.10205C1.14916 5.02617 1.56599 4.00206 2.26652 3.18243C2.96706 2.3628 3.91378 1.79158 4.96548 1.55397C6.01718 1.31635 7.11752 1.42506 8.10239 1.86389" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.0674 2.43384L6.06738 7.43884L4.56738 5.93884" stroke="#5A5A5A" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_258_1364">
+                                <rect width="12" height="12" fill="white" transform="translate(0.0673828 0.433838)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                <p class="responsible">01-01-23</p>
+                            </div>
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                      <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Responder</button>
+                    </td>
+                    <td>
+                      <button class="icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24" data-icon="feather:eye" class="iconify iconify--feather"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1 12s4-8 11-8s11 8 11 8s-4 8-11 8s-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                      </button>
+                    </td>
+                    <td>
+                      <div>
+                        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                            <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                            </svg>
+                    </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>  
+              </div> 
+            </div> 
+            <!-- Paginacion-->
+                         <!-- Paginacion-->
+                         <nav aria-label="..." class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex">
+                          <p class="message">Mostrando <span>1</span> a <span>10</span> de 16 entradas</p>
+                          </div>
+                          <div class="d-flex">
+                            <ul class="pagination pagination-sm">
+                              <li class="page-item controls">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&lt;</span>
+                                </a>
+                              </li>
+                              <li class="page-item active" aria-current="page">
+                                <span class="page-link">1</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li> 
+                              
+                              <li class="page-item controls">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&gt;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </nav>
+                        <!--Fin Paginacion-->
+            <!--Fin Paginacion-->
+          </div>
+          <!--Termina Pills 2-->
+        </div>
+        <!--Fin Content tabs-->
+        <!-- Inicio Cajas -->
+        <section class="cards mb-4 justify-content-between">
+          <div class="cards-grafic p-3 d-flex">
+            <div class="w-100">
+              <h2>Puntuación entre area</h2>
+              <div id="dataColor"></div>
+            </div>
+          </div>
+          
+            <div class="cards-grafic p-3">
+              <div class="w-100">
+                <h2>Importancia por subárea</h2>
+              <div id="linearGradient_1"></div>
+              </div>
+              
+          </div>
+          <div class="cards-grafic p-3">
+            <div class="w-100">
+              <h3>Promedio de completado</h3>
+            <div class="d-flex btn grafica">
+              <button class="btn circle-two-n2 order-md-2 ">
+                  SG
+              </button>
+              <button class="btn circle-two-n4 order-md-2 ">
+                SG
+            </button>
+            <button class="btn circle-two-n1 order-md-2 ">
+              SG
+          </button>
+             
+          </div>
+          <div id="gaugeCornerRadius_1"></div>
+            </div>
+            
+        </div>
+        <div class="cards-grafic">
+          <div class="d-flex w-100  justify-content-between">
+              <p>Inbox</p>
+              <div>
+                  <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12.9787" cy="5.15581" r="1.65337" fill="#283252"/>
+                      <circle cx="12.9786" cy="10.9427" r="1.65337" fill="#283252"/>
+                      <circle cx="12.9786" cy="16.7295" r="1.65337" fill="#283252"/>
+                      </svg>
+                      
+                      
+              </div>
+          </div>
+          <div class="d-flex w-100 row cards-none">
+              <div class="col-12 img-left d-flex align-items-center w-100 mb-3 ">
+                  <img class="user-photo me-3" alt="" src="../assets/img/nav/pers/02.png">
+                  <h3>Carolina Espinosa</h3>        
+              </div>
+              <div class="col-12 card p-3">
+                  <div class="circle d-flex align-items-center "><div class=" active me-2 "></div>
+                      <h6>administrador</h6>
+                   </div>
+                  <p class="message">Letraset sheets containing Lorem Ipsum passages, and more
+                  </p>
+              </div>
+          </div>
+          <div>
+
+          </div>
+      </div>
+      
+      </section>
+        <!-- Fin Cajas-->
+
+    </div>
+    <!--Termino Contendio-->
+    <!--alerta de carga-->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast succes" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                Guardamos con exito tus avances.
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+    <!--Termino alerta de carga-->
+    
+
+
+
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/multiform.js" defer></script>
+    <script src="../assets/js/toastTrigger.js"></script>
+     <!-- Load D3: -->
+     <script src="https://d3js.org/d3.v6.min.js"></script>
+
+     <!-- Load billboard.js with base(or theme) style -->
+     <link rel="stylesheet" href="../node_modules/billboard.js/dist/billboard.css">
+     <script src="../node_modules/billboard.js/dist/billboard.js"></script>
+      <script src="../assets/js/Grafic/grafic.js"></script>
+</body>
+</html>
