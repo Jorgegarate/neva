@@ -13081,6 +13081,10 @@ a {
   margin-bottom: 0px !important;
 }
 
+.mainregister {
+  flex-direction: column;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -13485,6 +13489,7 @@ input[type=range] {
 }
 
 thead, tbody td, th {
+  vertical-align: middle;
   border-style: none;
 }
 

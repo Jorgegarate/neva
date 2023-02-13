@@ -84,6 +84,7 @@
     --bs-table-accent-bg:$gris-300!important;
 }
 thead, tbody td, th {
+    vertical-align:middle;
     border-style: none;
     
 }
