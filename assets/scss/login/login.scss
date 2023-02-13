@@ -439,6 +439,20 @@ a {
 
   .color-yellow {
     color:$yellow-400!important;
-   } 
+   }
+   .color-succes {
+    color:$success;
+   }
+   .color-warning {
+    & p{
+        color:$yellow-400!important;
+    }
+    
+    & svg {
+        path {
+            stroke:$yellow-400!important;
+        }
+        
+    }
+   }    
 
-   //Angel Alvarez

@@ -12348,6 +12348,17 @@ a {
   color: #ED9A37 !important;
 }
 
+.color-succes {
+  color: #16C59B;
+}
+
+.color-warning p {
+  color: #ED9A37 !important;
+}
+.color-warning svg path {
+  stroke: #ED9A37 !important;
+}
+
 .body-login {
   background-color: #F4F4F4;
 }
@@ -12880,7 +12891,7 @@ a {
   font-size: 12px;
 }
 .data-icon .responsible-table {
-  color: #15ACC0 !important;
+  color: #15ACC0;
 }
 
 .btn {
