@@ -2,7 +2,7 @@
 var chart = bb.generate({
   data: {
     columns: [
-	["data", 91.4]
+	["data", 1]
     ],
     type: "gauge", // for ESM specify as: gauge()
   },
