@@ -13151,7 +13151,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .leyend {
@@ -13167,6 +13167,11 @@ a {
 
 .titleafterleyend {
   margin-right: auto !important;
+}
+
+.titlenivel {
+  font-size: 76px;
+  font-weight: 5000;
 }
 
 .cards {
@@ -13285,7 +13290,7 @@ a {
 }
 @media screen and (min-width: 780px) {
   .cards-grafictabs {
-    width: calc(32% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (min-width: 1100px) {
@@ -13328,17 +13333,17 @@ a {
 }
 @media screen and (min-width: 520px) {
   .cards-grafictabsnivel {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (min-width: 780px) {
   .cards-grafictabsnivel {
-    width: calc(32% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (min-width: 1100px) {
   .cards-grafictabsnivel {
-    width: calc(33% - 10px);
+    width: calc(50% - 10px);
   }
 }
 .cards-grafictabsnivel h2, .cards-grafictabsnivel .h2 {
@@ -13356,35 +13361,495 @@ a {
   font-size: 14px;
   font-weight: 200;
 }
+.cards-grafictabsnivel .titlenivel {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+}
+.cards-grafictabsnivel .titlenivel-5 {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #4FA95C;
+}
+.cards-grafictabsnivel .titlenivel-4 {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #3070B5;
+}
+.cards-grafictabsnivel .titlenivel-3 {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #FCFA62;
+}
+.cards-grafictabsnivel .titlenivel-2 {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #F3BF4F;
+}
+.cards-grafictabsnivel .titlenivel-1 {
+  font-size: 76px;
+  padding: 1rem;
+  font-weight: 500;
+  color: #E5342C;
+}
 .cards-grafictabsnivel .catnivel {
   display: flex;
   flex-direction: column;
 }
 .cards-grafictabsnivel .catnivel .niveles {
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cards-grafictabsnivel .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 {
+  width: 100%;
+  box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  border-radius: 8px;
+  background-color: #4FA95C;
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+}
+@media screen and (min-width: 520px) {
+  .cards-grafictabsnivel5 {
+    width: calc(100% - 10px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .cards-grafictabsnivel5 {
+    width: calc(100% - 10px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .cards-grafictabsnivel5 {
+    width: calc(33% - 10px);
+  }
+}
+.cards-grafictabsnivel5 h2, .cards-grafictabsnivel5 .h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.cards-grafictabsnivel5 h3, .cards-grafictabsnivel5 .h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 16px;
+}
+.cards-grafictabsnivel5 p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.cards-grafictabsnivel5 .titlenivel {
+  font-size: 76px;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 .catnivel {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grafictabsnivel5 .catnivel .niveles {
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.cards-grafictabsnivel .catnivel .nivel-5 {
-  background-color: #283252;
+.cards-grafictabsnivel5 .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel5 .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel4 {
+  width: 100%;
+  box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  border-radius: 8px;
+  background-color: #3070B5;
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+}
+@media screen and (min-width: 520px) {
+  .cards-grafictabsnivel4 {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .cards-grafictabsnivel4 {
+    width: calc(32% - 10px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .cards-grafictabsnivel4 {
+    width: calc(33% - 10px);
+  }
+}
+.cards-grafictabsnivel4 h2, .cards-grafictabsnivel4 .h2 {
+  font-size: 12px;
+  font-weight: 600;
   color: white;
 }
-.cards-grafictabsnivel .catnivel .nivel-4 {
-  background-color: #16C59B;
-  color: black;
+.cards-grafictabsnivel4 h3, .cards-grafictabsnivel4 .h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 16px;
 }
-.cards-grafictabsnivel .catnivel .nivel-3 {
-  background-color: #76EFFF;
-  color: black;
+.cards-grafictabsnivel4 p {
+  font-size: 14px;
+  font-weight: 200;
 }
-.cards-grafictabsnivel .catnivel .nivel-2 {
-  background-color: #FFC610;
-  color: black;
+.cards-grafictabsnivel4 .titlenivel {
+  font-size: 76px;
+  font-weight: 500;
 }
-.cards-grafictabsnivel .catnivel .nivel-1 {
-  background-color: #DC3545;
-  color: black;
+.cards-grafictabsnivel4 .catnivel {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grafictabsnivel4 .catnivel .niveles {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cards-grafictabsnivel4 .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel4 .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel4 .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel4 .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel4 .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 {
+  width: 100%;
+  box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  border-radius: 8px;
+  background-color: #FCFA62;
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  color: #283252;
+  padding: 0px 0px;
+  text-align: center;
+}
+@media screen and (min-width: 520px) {
+  .cards-grafictabsnivel3 {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .cards-grafictabsnivel3 {
+    width: calc(32% - 10px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .cards-grafictabsnivel3 {
+    width: calc(33% - 10px);
+  }
+}
+.cards-grafictabsnivel3 h2, .cards-grafictabsnivel3 .h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #283252;
+}
+.cards-grafictabsnivel3 h3, .cards-grafictabsnivel3 .h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #283252;
+  margin-bottom: 16px;
+}
+.cards-grafictabsnivel3 p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.cards-grafictabsnivel3 .titlenivel {
+  font-size: 76px;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 .catnivel {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grafictabsnivel3 .catnivel .niveles {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cards-grafictabsnivel3 .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel3 .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 {
+  width: 100%;
+  box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  border-radius: 8px;
+  background-color: #F3BF4F;
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  color: #283252;
+  padding: 0px 0px;
+  text-align: center;
+}
+@media screen and (min-width: 520px) {
+  .cards-grafictabsnivel2 {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .cards-grafictabsnivel2 {
+    width: calc(32% - 10px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .cards-grafictabsnivel2 {
+    width: calc(33% - 10px);
+  }
+}
+.cards-grafictabsnivel2 h2, .cards-grafictabsnivel2 .h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #283252;
+}
+.cards-grafictabsnivel2 h3, .cards-grafictabsnivel2 .h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #283252;
+  margin-bottom: 16px;
+}
+.cards-grafictabsnivel2 p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.cards-grafictabsnivel2 .titlenivel {
+  font-size: 76px;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 .catnivel {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grafictabsnivel2 .catnivel .niveles {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cards-grafictabsnivel2 .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel2 .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 {
+  width: 100%;
+  box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(224, 224, 224, 0.75);
+  border-radius: 8px;
+  background-color: #E5342C;
+  display: flex;
+  flex-direction: initial;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+}
+@media screen and (min-width: 520px) {
+  .cards-grafictabsnivel1 {
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .cards-grafictabsnivel1 {
+    width: calc(32% - 10px);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .cards-grafictabsnivel1 {
+    width: calc(33% - 10px);
+  }
+}
+.cards-grafictabsnivel1 h2, .cards-grafictabsnivel1 .h2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.cards-grafictabsnivel1 h3, .cards-grafictabsnivel1 .h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 16px;
+}
+.cards-grafictabsnivel1 p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.cards-grafictabsnivel1 .titlenivel {
+  font-size: 76px;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 .catnivel {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grafictabsnivel1 .catnivel .niveles {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cards-grafictabsnivel1 .catnivel .nivel-5 {
+  background-color: #4FA95C;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 .catnivel .nivel-4 {
+  background-color: #3070B5;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 .catnivel .nivel-3 {
+  background-color: #FCFA62;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 .catnivel .nivel-2 {
+  background-color: #F3BF4F;
+  color: white;
+  font-weight: 500;
+}
+.cards-grafictabsnivel1 .catnivel .nivel-1 {
+  background-color: #E5342C;
+  color: white;
+  font-weight: 500;
 }
 .cards-grafictabsresult {
   width: 100%;
@@ -13406,6 +13871,7 @@ a {
   font-weight: 600;
   color: #283252;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .cards-grafictabsresult h3, .cards-grafictabsresult .h3 {
   font-size: 12px;
@@ -13422,6 +13888,8 @@ a {
   background-color: #15ACC0;
   padding: 1rem;
   color: white;
+  width: 100%;
+  height: -webkit-fill-available;
 }
 .cards-grafictabsresult .bodycard h2, .cards-grafictabsresult .bodycard .h2 {
   color: white !important;
@@ -13463,17 +13931,17 @@ a {
 }
 @media screen and (min-width: 520px) {
   .cards-grafictabsresultsub {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (min-width: 780px) {
   .cards-grafictabsresultsub {
-    width: calc(32% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (min-width: 1100px) {
   .cards-grafictabsresultsub {
-    width: calc(33% - 10px);
+    width: calc(50% - 10px);
     height: min-content;
   }
 }
@@ -13938,9 +14406,6 @@ h1, .h1 {
   margin: 0;
 }
 
-.cards-grafictabs {
-  display: block;
-}
 .cards-grafictabs h2:first-child, .cards-grafictabs .h2:first-child {
   text-align: center;
   margin-bottom: 0;
@@ -13952,10 +14417,10 @@ h1, .h1 {
 }
 @media screen and (max-width: 968px) {
   .cards-grafictabs {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
   .cards-grafictabsnivel {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
   .cards-grafictabs:first-child {
     min-width: 100% !important;
@@ -14049,6 +14514,93 @@ h1, .h1 {
 }
 .circle .leyend {
   margin-bottom: 0.8rem;
+}
+
+.table-recomendaciones thead {
+  background-color: #15ACC0;
+  color: white;
+}
+
+.level-descrip {
+  width: 100%;
+  box-shadow: rgba(224, 224, 224, 0.75) 1px 10px 5px 0px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  color: black;
+}
+.level-descrip .nivel-5-descrip {
+  background-color: #4FA95C;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.level-descrip .nivel-5-descrip p {
+  padding: 2rem;
+}
+.level-descrip .nivel-5-description {
+  color: white;
+  background-color: #4FA95C;
+  padding: 2rem;
+}
+.level-descrip .nivel-4-descrip {
+  background-color: #3070B5;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.level-descrip .nivel-4-descrip p {
+  padding: 2rem;
+}
+.level-descrip .nivel-4-description {
+  color: white;
+  background-color: #3070B5;
+  padding: 2rem;
+}
+.level-descrip .nivel-3-descrip {
+  background-color: #FCFA62;
+  color: #283252;
+  display: flex;
+  align-items: center;
+}
+.level-descrip .nivel-3-descrip p {
+  padding: 2rem;
+}
+.level-descrip .nivel-3-description {
+  color: #283252;
+  background-color: #FCFA62;
+  padding: 2rem;
+}
+.level-descrip .nivel-2-descrip {
+  background-color: #F3BF4F;
+  color: #283252;
+  display: flex;
+  align-items: center;
+}
+.level-descrip .nivel-2-descrip p {
+  padding: 2rem;
+}
+.level-descrip .nivel-2-description {
+  color: #283252;
+  background-color: #F3BF4F;
+  padding: 2rem;
+}
+.level-descrip .nivel-1-descrip {
+  background-color: #E5342C;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.level-descrip .nivel-1-descrip p {
+  padding: 2rem;
+}
+.level-descrip .nivel-1-description {
+  color: white;
+  background-color: #E5342C;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

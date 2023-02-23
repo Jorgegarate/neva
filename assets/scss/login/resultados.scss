@@ -1,5 +1,5 @@
 .cards-grafictabs{
-    display: block;
+    // display: block;
     h2:first-child {
         text-align: center;
         margin-bottom: 0;
@@ -8,9 +8,9 @@
         }
     }
     @include mv (968px) {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
     &nivel {
-        width: calc(50% - 10px); 
+        width: calc(100% - 10px); 
     }
     &:first-child {
         &{
@@ -114,4 +114,93 @@
     .leyend {
         margin-bottom: .8rem;
     }
+}
+
+.table-recomendaciones{
+    & thead{
+        background-color: $aqua-40;
+        color: white;
+    }
+}
+.level-descrip{
+    width: 100%;
+    box-shadow: rgb(224 224 224 / 75%) 1px 10px 5px 0px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    color: black;
+    & .nivel-5-descrip{
+        background-color: $nivel-5;
+        color: white;
+        display: flex;
+        align-items: center;
+        & p{
+            padding: 2rem;
+        }
+    }
+    & .nivel-5-description{
+        color: white;
+        background-color: $nivel-5;
+        padding: 2rem;
+    }
+    & .nivel-4-descrip{
+        background-color: $nivel-4;
+        color: white;
+        display: flex;
+        align-items: center;
+        & p{
+            padding: 2rem;
+        }
+    }
+    & .nivel-4-description{
+        color: white;
+        background-color: $nivel-4;
+        padding: 2rem;
+    }
+    & .nivel-3-descrip{
+        background-color: $nivel-3;
+        color: $secundary-400;
+        display: flex;
+        align-items: center;
+        & p{
+            padding: 2rem;
+        }
+    }
+    & .nivel-3-description{
+        color: $secundary-400;
+        background-color: $nivel-3;
+        padding: 2rem;
+    }
+    & .nivel-2-descrip{
+        background-color: $nivel-2;
+        color: $secundary-400;
+        display: flex;
+        align-items: center;
+        & p{
+            padding: 2rem;
+        }
+    }
+    & .nivel-2-description{
+        color: $secundary-400;
+        background-color: $nivel-2;
+        padding: 2rem;
+    }
+    & .nivel-1-descrip{
+        background-color: $nivel-1;
+        color: white;
+        display: flex;
+        align-items: center;
+        & p{
+            padding: 2rem;
+        }
+    }
+    & .nivel-1-description{
+        color: white;
+        background-color: $nivel-1;
+        padding: 2rem;
+    }
+
 }
