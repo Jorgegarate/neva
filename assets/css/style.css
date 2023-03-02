@@ -14603,4 +14603,38 @@ h1, .h1 {
   padding: 2rem;
 }
 
+.imgbienvenida {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.textosbienvenida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulobienvenida {
+  font-size: 28px;
+  font-weight: 600;
+  color: #283252;
+}
+
+.btn-bienvenida {
+  background-color: #15ACC0;
+  color: white;
+}
+
+.texto404 {
+  text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+  .textocul {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
