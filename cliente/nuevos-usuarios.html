@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+
+</head>
+<body class="dashboard-user">
+    <!--Nav primario-->
+    <aside class="color-nav nav-user d-flex flex-column">
+        <div class="d-flex flex-column align-items-center">
+            <div class="logo">
+                <img  class="w-100 logo" src="../assets/img/nav/logos/logo-blanco.svg" alt="">
+            </div>
+            <div>
+                <div>
+                   <button class="btn p-0 btn-nav-primary">
+                    <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.0003 10.5721H18.0003L15.0003 19.5721L9.00031 1.57214L6.00031 10.5721H2.00031" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>   
+                   </button>
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_196_887)">
+                      <path d="M12 15.5721C13.6569 15.5721 15 14.229 15 12.5721C15 10.9153 13.6569 9.57214 12 9.57214C10.3431 9.57214 9 10.9153 9 12.5721C9 14.229 10.3431 15.5721 12 15.5721Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M19.4004 15.5721C19.2673 15.8738 19.2275 16.2083 19.2864 16.5327C19.3452 16.8571 19.4998 17.1565 19.7304 17.3921L19.7904 17.4521C19.9763 17.6379 20.1238 17.8585 20.2245 18.1013C20.3251 18.3441 20.3769 18.6043 20.3769 18.8671C20.3769 19.13 20.3251 19.3902 20.2245 19.633C20.1238 19.8758 19.9763 20.0964 19.7904 20.2821C19.6046 20.4681 19.384 20.6156 19.1412 20.7163C18.8985 20.8169 18.6382 20.8687 18.3754 20.8687C18.1125 20.8687 17.8523 20.8169 17.6095 20.7163C17.3667 20.6156 17.1461 20.4681 16.9604 20.2821L16.9004 20.2221C16.6647 19.9916 16.3653 19.837 16.041 19.7781C15.7166 19.7193 15.382 19.759 15.0804 19.8921C14.7846 20.0189 14.5323 20.2294 14.3547 20.4977C14.177 20.766 14.0816 21.0804 14.0804 21.4021V21.5721C14.0804 22.1026 13.8697 22.6113 13.4946 22.9864C13.1195 23.3614 12.6108 23.5721 12.0804 23.5721C11.5499 23.5721 11.0412 23.3614 10.6662 22.9864C10.2911 22.6113 10.0804 22.1026 10.0804 21.5721V21.4821C10.0726 21.1511 9.96548 20.8301 9.77288 20.5608C9.58027 20.2916 9.3111 20.0864 9.00037 19.9721C8.69875 19.839 8.36417 19.7993 8.03978 19.8581C7.71538 19.917 7.41605 20.0716 7.18037 20.3021L7.12037 20.3621C6.93462 20.5481 6.71404 20.6956 6.47125 20.7963C6.22845 20.8969 5.9682 20.9487 5.70537 20.9487C5.44254 20.9487 5.18228 20.8969 4.93949 20.7963C4.69669 20.6956 4.47611 20.5481 4.29037 20.3621C4.10441 20.1764 3.9569 19.9558 3.85625 19.713C3.7556 19.4702 3.70379 19.21 3.70379 18.9471C3.70379 18.6843 3.7556 18.4241 3.85625 18.1813C3.9569 17.9385 4.10441 17.7179 4.29037 17.5321L4.35037 17.4721C4.5809 17.2365 4.73555 16.9371 4.79437 16.6127C4.85319 16.2883 4.81348 15.9538 4.68037 15.6521C4.5536 15.3564 4.34312 15.1041 4.07483 14.9265C3.80654 14.7488 3.49215 14.6534 3.17037 14.6521H3.00037C2.46993 14.6521 1.96123 14.4414 1.58615 14.0664C1.21108 13.6913 1.00037 13.1826 1.00037 12.6521C1.00037 12.1217 1.21108 11.613 1.58615 11.2379C1.96123 10.8629 2.46993 10.6521 3.00037 10.6521H3.09037C3.42136 10.6444 3.74237 10.5373 4.01167 10.3447C4.28096 10.152 4.48608 9.88288 4.60037 9.57214C4.73348 9.27053 4.77319 8.93595 4.71437 8.61156C4.65555 8.28716 4.5009 7.98782 4.27037 7.75214L4.21037 7.69214C4.02441 7.5064 3.8769 7.28582 3.77625 7.04302C3.6756 6.80023 3.62379 6.53997 3.62379 6.27714C3.62379 6.01431 3.6756 5.75406 3.77625 5.51126C3.8769 5.26847 4.02441 5.04789 4.21037 4.86214C4.39611 4.67619 4.61669 4.52867 4.85949 4.42802C5.10228 4.32738 5.36254 4.27557 5.62537 4.27557C5.8882 4.27557 6.14845 4.32738 6.39125 4.42802C6.63404 4.52867 6.85462 4.67619 7.04037 4.86214L7.10037 4.92214C7.33605 5.15268 7.63538 5.30733 7.95978 5.36615C8.28417 5.42497 8.61875 5.38526 8.92037 5.25214H9.00037C9.29614 5.12538 9.54838 4.9149 9.72606 4.64661C9.90373 4.37832 9.99908 4.06393 10.0004 3.74214V3.57214C10.0004 3.04171 10.2111 2.533 10.5862 2.15793C10.9612 1.78286 11.4699 1.57214 12.0004 1.57214C12.5308 1.57214 13.0395 1.78286 13.4146 2.15793C13.7897 2.533 14.0004 3.04171 14.0004 3.57214V3.66214C14.0016 3.98393 14.097 4.29832 14.2747 4.56661C14.4523 4.8349 14.7046 5.04538 15.0004 5.17214C15.302 5.30526 15.6366 5.34497 15.961 5.28615C16.2853 5.22733 16.5847 5.07268 16.8204 4.84214L16.8804 4.78214C17.0661 4.59619 17.2867 4.44867 17.5295 4.34802C17.7723 4.24738 18.0325 4.19557 18.2954 4.19557C18.5582 4.19557 18.8185 4.24738 19.0612 4.34802C19.304 4.44867 19.5246 4.59619 19.7104 4.78214C19.8963 4.96789 20.0438 5.18847 20.1445 5.43126C20.2451 5.67406 20.2969 5.93431 20.2969 6.19714C20.2969 6.45997 20.2451 6.72023 20.1445 6.96302C20.0438 7.20582 19.8963 7.4264 19.7104 7.61214L19.6504 7.67214C19.4198 7.90782 19.2652 8.20716 19.2064 8.53155C19.1475 8.85595 19.1873 9.19053 19.3204 9.49214V9.57214C19.4471 9.86791 19.6576 10.1202 19.9259 10.2978C20.1942 10.4755 20.5086 10.5709 20.8304 10.5721H21.0004C21.5308 10.5721 22.0395 10.7829 22.4146 11.1579C22.7897 11.533 23.0004 12.0417 23.0004 12.5721C23.0004 13.1026 22.7897 13.6113 22.4146 13.9864C22.0395 14.3614 21.5308 14.5721 21.0004 14.5721H20.9104C20.5886 14.5734 20.2742 14.6688 20.0059 14.8465C19.7376 15.0241 19.5271 15.2764 19.4004 15.5721V15.5721Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_196_887">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.572144)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                    </button>
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.00043 1.57217H9.00043V8.57217H2.00043V1.57217ZM13.0004 1.57217H20.0004V8.57217H13.0004V1.57217ZM13.0004 12.5722H20.0004V19.5722H13.0004V12.5722ZM2.00043 12.5722H9.00043V19.5722H2.00043V12.5722Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.0004 15.5721V7.57212C20.0001 7.2214 19.9075 6.87693 19.732 6.57328C19.5564 6.26964 19.3042 6.01748 19.0004 5.84212L12.0004 1.84212C11.6964 1.66659 11.3515 1.57417 11.0004 1.57417C10.6494 1.57417 10.3045 1.66659 10.0004 1.84212L3.00043 5.84212C2.69669 6.01748 2.44441 6.26964 2.26889 6.57328C2.09337 6.87693 2.00079 7.2214 2.00043 7.57212V15.5721C2.00079 15.9228 2.09337 16.2673 2.26889 16.571C2.44441 16.8746 2.69669 17.1268 3.00043 17.3021L10.0004 21.3021C10.3045 21.4777 10.6494 21.5701 11.0004 21.5701C11.3515 21.5701 11.6964 21.4777 12.0004 21.3021L19.0004 17.3021C19.3042 17.1268 19.5564 16.8746 19.732 16.571C19.9075 16.2673 20.0001 15.9228 20.0004 15.5721Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2.27039 6.53209L11.0004 11.5821L19.7304 6.53209M11.0004 21.6521V11.5721" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column  align-items-center">
+
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.0001 10.2563C20.0035 11.5762 19.6951 12.8782 19.1001 14.0563C18.3945 15.4681 17.3098 16.6555 15.9675 17.4856C14.6252 18.3157 13.0783 18.7557 11.5001 18.7563C10.1802 18.7598 8.87818 18.4514 7.70006 17.8563L2.00006 19.7563L3.90006 14.0563C3.30499 12.8782 2.99662 11.5762 3.00006 10.2563C3.00067 8.67807 3.44067 7.13117 4.27078 5.78886C5.10089 4.44656 6.28832 3.36188 7.70006 2.65632C8.87818 2.06125 10.1802 1.75287 11.5001 1.75632H12.0001C14.0844 1.87131 16.0531 2.75108 17.5292 4.22717C19.0053 5.70327 19.8851 7.67197 20.0001 9.75631V10.2563Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+                  
+                    
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.0004 1.16174H4.00043C2.89586 1.16174 2.00043 2.17819 2.00043 3.43205V19.3242C2.00043 20.578 2.89586 21.5945 4.00043 21.5945H18.0004C19.105 21.5945 20.0004 20.578 20.0004 19.3242V3.43205C20.0004 2.17819 19.105 1.16174 18.0004 1.16174Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.00012 1.16183V21.5946" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+                 
+                    
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_196_887)">
+                      <path d="M12 15.5721C13.6569 15.5721 15 14.229 15 12.5721C15 10.9153 13.6569 9.57214 12 9.57214C10.3431 9.57214 9 10.9153 9 12.5721C9 14.229 10.3431 15.5721 12 15.5721Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M19.4004 15.5721C19.2673 15.8738 19.2275 16.2083 19.2864 16.5327C19.3452 16.8571 19.4998 17.1565 19.7304 17.3921L19.7904 17.4521C19.9763 17.6379 20.1238 17.8585 20.2245 18.1013C20.3251 18.3441 20.3769 18.6043 20.3769 18.8671C20.3769 19.13 20.3251 19.3902 20.2245 19.633C20.1238 19.8758 19.9763 20.0964 19.7904 20.2821C19.6046 20.4681 19.384 20.6156 19.1412 20.7163C18.8985 20.8169 18.6382 20.8687 18.3754 20.8687C18.1125 20.8687 17.8523 20.8169 17.6095 20.7163C17.3667 20.6156 17.1461 20.4681 16.9604 20.2821L16.9004 20.2221C16.6647 19.9916 16.3653 19.837 16.041 19.7781C15.7166 19.7193 15.382 19.759 15.0804 19.8921C14.7846 20.0189 14.5323 20.2294 14.3547 20.4977C14.177 20.766 14.0816 21.0804 14.0804 21.4021V21.5721C14.0804 22.1026 13.8697 22.6113 13.4946 22.9864C13.1195 23.3614 12.6108 23.5721 12.0804 23.5721C11.5499 23.5721 11.0412 23.3614 10.6662 22.9864C10.2911 22.6113 10.0804 22.1026 10.0804 21.5721V21.4821C10.0726 21.1511 9.96548 20.8301 9.77288 20.5608C9.58027 20.2916 9.3111 20.0864 9.00037 19.9721C8.69875 19.839 8.36417 19.7993 8.03978 19.8581C7.71538 19.917 7.41605 20.0716 7.18037 20.3021L7.12037 20.3621C6.93462 20.5481 6.71404 20.6956 6.47125 20.7963C6.22845 20.8969 5.9682 20.9487 5.70537 20.9487C5.44254 20.9487 5.18228 20.8969 4.93949 20.7963C4.69669 20.6956 4.47611 20.5481 4.29037 20.3621C4.10441 20.1764 3.9569 19.9558 3.85625 19.713C3.7556 19.4702 3.70379 19.21 3.70379 18.9471C3.70379 18.6843 3.7556 18.4241 3.85625 18.1813C3.9569 17.9385 4.10441 17.7179 4.29037 17.5321L4.35037 17.4721C4.5809 17.2365 4.73555 16.9371 4.79437 16.6127C4.85319 16.2883 4.81348 15.9538 4.68037 15.6521C4.5536 15.3564 4.34312 15.1041 4.07483 14.9265C3.80654 14.7488 3.49215 14.6534 3.17037 14.6521H3.00037C2.46993 14.6521 1.96123 14.4414 1.58615 14.0664C1.21108 13.6913 1.00037 13.1826 1.00037 12.6521C1.00037 12.1217 1.21108 11.613 1.58615 11.2379C1.96123 10.8629 2.46993 10.6521 3.00037 10.6521H3.09037C3.42136 10.6444 3.74237 10.5373 4.01167 10.3447C4.28096 10.152 4.48608 9.88288 4.60037 9.57214C4.73348 9.27053 4.77319 8.93595 4.71437 8.61156C4.65555 8.28716 4.5009 7.98782 4.27037 7.75214L4.21037 7.69214C4.02441 7.5064 3.8769 7.28582 3.77625 7.04302C3.6756 6.80023 3.62379 6.53997 3.62379 6.27714C3.62379 6.01431 3.6756 5.75406 3.77625 5.51126C3.8769 5.26847 4.02441 5.04789 4.21037 4.86214C4.39611 4.67619 4.61669 4.52867 4.85949 4.42802C5.10228 4.32738 5.36254 4.27557 5.62537 4.27557C5.8882 4.27557 6.14845 4.32738 6.39125 4.42802C6.63404 4.52867 6.85462 4.67619 7.04037 4.86214L7.10037 4.92214C7.33605 5.15268 7.63538 5.30733 7.95978 5.36615C8.28417 5.42497 8.61875 5.38526 8.92037 5.25214H9.00037C9.29614 5.12538 9.54838 4.9149 9.72606 4.64661C9.90373 4.37832 9.99908 4.06393 10.0004 3.74214V3.57214C10.0004 3.04171 10.2111 2.533 10.5862 2.15793C10.9612 1.78286 11.4699 1.57214 12.0004 1.57214C12.5308 1.57214 13.0395 1.78286 13.4146 2.15793C13.7897 2.533 14.0004 3.04171 14.0004 3.57214V3.66214C14.0016 3.98393 14.097 4.29832 14.2747 4.56661C14.4523 4.8349 14.7046 5.04538 15.0004 5.17214C15.302 5.30526 15.6366 5.34497 15.961 5.28615C16.2853 5.22733 16.5847 5.07268 16.8204 4.84214L16.8804 4.78214C17.0661 4.59619 17.2867 4.44867 17.5295 4.34802C17.7723 4.24738 18.0325 4.19557 18.2954 4.19557C18.5582 4.19557 18.8185 4.24738 19.0612 4.34802C19.304 4.44867 19.5246 4.59619 19.7104 4.78214C19.8963 4.96789 20.0438 5.18847 20.1445 5.43126C20.2451 5.67406 20.2969 5.93431 20.2969 6.19714C20.2969 6.45997 20.2451 6.72023 20.1445 6.96302C20.0438 7.20582 19.8963 7.4264 19.7104 7.61214L19.6504 7.67214C19.4198 7.90782 19.2652 8.20716 19.2064 8.53155C19.1475 8.85595 19.1873 9.19053 19.3204 9.49214V9.57214C19.4471 9.86791 19.6576 10.1202 19.9259 10.2978C20.1942 10.4755 20.5086 10.5709 20.8304 10.5721H21.0004C21.5308 10.5721 22.0395 10.7829 22.4146 11.1579C22.7897 11.533 23.0004 12.0417 23.0004 12.5721C23.0004 13.1026 22.7897 13.6113 22.4146 13.9864C22.0395 14.3614 21.5308 14.5721 21.0004 14.5721H20.9104C20.5886 14.5734 20.2742 14.6688 20.0059 14.8465C19.7376 15.0241 19.5271 15.2764 19.4004 15.5721V15.5721Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_196_887">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.572144)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                    </button>
+                </div>
+                <div>
+                  <button class="btn p-0 btn-nav-primary">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.0004 18.0001C14.4187 18.0001 18.0004 14.4183 18.0004 10.0001C18.0004 5.58178 14.4187 2.00006 10.0004 2.00006C5.58215 2.00006 2.00043 5.58178 2.00043 10.0001C2.00043 14.4183 5.58215 18.0001 10.0004 18.0001Z" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20.0001 20.0001L15.6501 15.6501" stroke="" stroke-width="2.2703" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+               
+
+        </div>
+    </aside>
+    <!--Termino Nav primario-->
+    <!--Nav secundario-->
+    <div class="sidebar-panel is-generic">
+        <div class="content-sidebar">
+            <div class="d-flex justify-content-between align-items-center py-3 p-1">
+                <h3 class="layout-title">Elements</h3>
+                <button class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.4em" height="1.4em" viewBox="0 0 24 24" data-icon="feather:x" class="iconify iconify--feather"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 6L6 18M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="accordion p-2" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-menu-title">
+                    Subtitle 1
+                  </h2>
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Usuarios
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <ul class="listbody">
+                        <li><a href="#">Agregar</a></li>
+                        <li><a href="#">Ver Usuarios</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Empresas
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <ul class="listbody">
+                            <li>subtitle 1</li>
+                            <li>subtitle 2</li>
+                            <li>subtitle 3</li>
+                            <li>subtitle 4</li>
+                          </ul></div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+    <!--Termino Nav secundario-->
+    <!--Contenido-->
+    <div class="row view-wrapper">
+        <div class="col-12 d-flex justify-content-between">
+            <!--Header-->
+            <div class="page-title mt-5 pt-5 pt-sm-0 mt-sm-0">
+                <div class="py-3 d-flex align-items-center">
+                    <div class="nav-media img-left">
+                        <span class="me-3 menu-toggle has-chevron">
+                            <span class="icon-box-toggle">
+                                <span class="rotate"><i aria-hidden="true" class="icon-line-top"></i><i aria-hidden="true" class="icon-line-center"></i><i aria-hidden="true" class="icon-line-bottom"></i>
+                                </span>
+                            </span>
+                        </span>
+                        <img  class="logo d-block d-sm-none" src="../assets/img/nav/logos/logo-negro.svg" alt="">
+                        <div class="dropdown is-spaced is-dots is-right dropdown-trigger user-photo me-sm-3 d-block">
+                          <div tabindex="0" class="" aria-haspopup="true">
+                            <div class="img-left me-2">
+                              <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                          </div>
+                                                         
+                              <span class="new-indicator pulsate"></span>
+                          </div>
+                          <div class="dropdown-menu">
+                              <div class="dropdown-content-user">
+                                  <div class="heading">
+                                    <ul class="notification-list">
+                                      <li><a class="notification-item">
+                                          <div class="img-left-menu me-2">
+                                              <img class="user-photo-3" alt="" src="../assets/img/nav/pers/02.png">
+                                          </div>
+                                          <div class="user-content">
+                                              <p class="user-info mb-0"><span class="name">Erik Kowalsky</span></p>
+                                              <p class="time mb-0">Product Manager</p>
+                                          </div>
+                                      </a>
+                                  </li>
+                                  </div>
+                                  <ul class="notification-list">
+                                      <li><a class="notification-item border-item">
+                                          <div class="img-left me-2">
+                                            <svg width="15" height="17" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="5.00005" cy="2.56096" r="1.82927" stroke="#283252" stroke-width="0.487805"/>
+                                              <path d="M8.29271 8.65869V9.14649C8.29271 9.28119 8.18351 9.39039 8.04881 9.39039H1.95125C1.81654 9.39039 1.70734 9.28119 1.70734 9.14649V8.65869C1.70734 6.84019 3.18153 5.366 5.00003 5.366C6.81852 5.366 8.29271 6.84019 8.29271 8.65869Z" stroke="#283252" stroke-width="0.487805"/>
+                                              </svg>
+                                              
+                                          </div>
+                                          <div class="user-content">
+                                              <p class="user-info mb-0"><span class="name">Profile</span></p>
+                                              <p class="time">View your profile</p>
+                                          </div>
+                                      </a>
+                                    </li>
+                                    <li><a class="notification-item border-item ">
+                                      <div class="img-left me-2">
+                                        <svg width="15" height="17" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <circle cx="5.00005" cy="2.56096" r="1.82927" stroke="#283252" stroke-width="0.487805"/>
+                                          <path d="M8.29271 8.65869V9.14649C8.29271 9.28119 8.18351 9.39039 8.04881 9.39039H1.95125C1.81654 9.39039 1.70734 9.28119 1.70734 9.14649V8.65869C1.70734 6.84019 3.18153 5.366 5.00003 5.366C6.81852 5.366 8.29271 6.84019 8.29271 8.65869Z" stroke="#283252" stroke-width="0.487805"/>
+                                          </svg>
+                                      </div>
+                                      <div class="user-content">
+                                          <p class="user-info mb-0"><span class="name">Projects</span></p>
+                                          <p class="time">All my projects</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                  <li><a class="notification-item border-item">
+                                    <div class="img-left me-2">
+                                      <svg width="15" height="17" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="5.00005" cy="2.56096" r="1.82927" stroke="#283252" stroke-width="0.487805"/>
+                                        <path d="M8.29271 8.65869V9.14649C8.29271 9.28119 8.18351 9.39039 8.04881 9.39039H1.95125C1.81654 9.39039 1.70734 9.28119 1.70734 9.14649V8.65869C1.70734 6.84019 3.18153 5.366 5.00003 5.366C6.81852 5.366 8.29271 6.84019 8.29271 8.65869Z" stroke="#283252" stroke-width="0.487805"/>
+                                        </svg>
+                                    </div>
+                                    <div class="user-content">
+                                        <p class="user-info mb-0"><span class="name">Team</span></p>
+                                        <p class="time">Manage your team</p>
+                                    </div>
+                                    </a>
+                                  </li>
+                                  <li><a class="notification-item border-item">
+                                    <div class="img-left me-2">
+                                      <svg width="15" height="17" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="5.00005" cy="2.56096" r="1.82927" stroke="#283252" stroke-width="0.487805"/>
+                                        <path d="M8.29271 8.65869V9.14649C8.29271 9.28119 8.18351 9.39039 8.04881 9.39039H1.95125C1.81654 9.39039 1.70734 9.28119 1.70734 9.14649V8.65869C1.70734 6.84019 3.18153 5.366 5.00003 5.366C6.81852 5.366 8.29271 6.84019 8.29271 8.65869Z" stroke="#283252" stroke-width="0.487805"/>
+                                        </svg>
+                                    </div>
+                                    <div class="user-content">
+                                        <p class="user-info mb-0"><span class="name">Settings</span></p>
+                                        <p class="time">Acount Settings</p>
+                                    </div>
+                                    </a>
+                                  </li>
+                                  <li><a class="notification-item">
+                      
+                                    <div class="user-content ">
+                                        <button class="btn btn-logout">
+                                          <span class="iconoboton"><svg width="15" height="17" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="5.00005" cy="2.56096" r="1.82927" stroke="" stroke-width="0.487805"/>
+                                            <path d="M8.29271 8.65869V9.14649C8.29271 9.28119 8.18351 9.39039 8.04881 9.39039H1.95125C1.81654 9.39039 1.70734 9.28119 1.70734 9.14649V8.65869C1.70734 6.84019 3.18153 5.366 5.00003 5.366C6.81852 5.366 8.29271 6.84019 8.29271 8.65869Z" stroke="" stroke-width="0.487805"/>
+                                            </svg>
+                                          </span>Logout</button>
+                                    </div>
+                                    </a>
+                                  </li>
+                                 
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                    <h1 class="title">
+                        Usuarios
+                    </h1>
+                </div>
+                <div class="toolbar ml-auto desktop-toolbar">
+                    <!--Icono cliente-->
+                   
+                      <!--Fin cliente-->
+                  <!--Icono 1-->
+                  <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                    <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_1508)">
+                        <path d="M8.25195 10.6211C9.35652 10.6211 10.2519 9.72566 10.2519 8.62109C10.2519 7.51652 9.35652 6.62109 8.25195 6.62109C7.14738 6.62109 6.25195 7.51652 6.25195 8.62109C6.25195 9.72566 7.14738 10.6211 8.25195 10.6211Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.1852 10.6212C13.0965 10.8223 13.07 11.0453 13.1092 11.2616C13.1484 11.4778 13.2515 11.6774 13.4052 11.8345L13.4452 11.8745C13.5692 11.9983 13.6675 12.1454 13.7346 12.3073C13.8017 12.4691 13.8363 12.6426 13.8363 12.8178C13.8363 12.9931 13.8017 13.1666 13.7346 13.3284C13.6675 13.4903 13.5692 13.6373 13.4452 13.7612C13.3214 13.8851 13.1743 13.9835 13.0125 14.0506C12.8506 14.1177 12.6771 14.1522 12.5019 14.1522C12.3267 14.1522 12.1532 14.1177 11.9913 14.0506C11.8294 13.9835 11.6824 13.8851 11.5585 13.7612L11.5185 13.7212C11.3614 13.5675 11.1619 13.4644 10.9456 13.4252C10.7293 13.386 10.5063 13.4124 10.3052 13.5012C10.108 13.5857 9.93987 13.726 9.82142 13.9049C9.70297 14.0837 9.6394 14.2933 9.63855 14.5078V14.6212C9.63855 14.9748 9.49807 15.3139 9.24802 15.564C8.99798 15.814 8.65884 15.9545 8.30522 15.9545C7.95159 15.9545 7.61246 15.814 7.36241 15.564C7.11236 15.3139 6.97188 14.9748 6.97188 14.6212V14.5612C6.96672 14.3405 6.89529 14.1265 6.76689 13.947C6.63848 13.7674 6.45904 13.6307 6.25188 13.5545C6.0508 13.4658 5.82775 13.4393 5.61149 13.4785C5.39523 13.5177 5.19567 13.6208 5.03855 13.7745L4.99855 13.8145C4.87472 13.9385 4.72767 14.0368 4.5658 14.1039C4.40394 14.171 4.23044 14.2056 4.05522 14.2056C3.87999 14.2056 3.70649 14.171 3.54463 14.1039C3.38276 14.0368 3.23571 13.9385 3.11188 13.8145C2.98791 13.6907 2.88957 13.5436 2.82247 13.3818C2.75537 13.2199 2.72083 13.0464 2.72083 12.8712C2.72083 12.696 2.75537 12.5225 2.82247 12.3606C2.88957 12.1987 2.98791 12.0517 3.11188 11.9278L3.15188 11.8878C3.30557 11.7307 3.40867 11.5312 3.44788 11.3149C3.4871 11.0986 3.46063 10.8756 3.37188 10.6745C3.28737 10.4773 3.14705 10.3092 2.96819 10.1907C2.78933 10.0723 2.57974 10.0087 2.36522 10.0078H2.25188C1.89826 10.0078 1.55912 9.86737 1.30907 9.61732C1.05902 9.36727 0.918549 9.02813 0.918549 8.67451C0.918549 8.32089 1.05902 7.98175 1.30907 7.7317C1.55912 7.48165 1.89826 7.34118 2.25188 7.34118H2.31188C2.53254 7.33601 2.74655 7.26459 2.92608 7.13618C3.10561 7.00778 3.24236 6.82833 3.31855 6.62118C3.40729 6.4201 3.43376 6.19705 3.39455 5.98078C3.35534 5.76452 3.25224 5.56496 3.09855 5.40784L3.05855 5.36784C2.93458 5.24401 2.83623 5.09696 2.76914 4.9351C2.70204 4.77323 2.6675 4.59973 2.6675 4.42451C2.6675 4.24929 2.70204 4.07579 2.76914 3.91392C2.83623 3.75206 2.93458 3.60501 3.05855 3.48118C3.18238 3.35721 3.32943 3.25886 3.49129 3.19176C3.65316 3.12466 3.82666 3.09013 4.00188 3.09013C4.1771 3.09013 4.3506 3.12466 4.51247 3.19176C4.67433 3.25886 4.82138 3.35721 4.94522 3.48118L4.98522 3.52118C5.14233 3.67487 5.34189 3.77797 5.55816 3.81718C5.77442 3.85639 5.99747 3.82992 6.19855 3.74118H6.25188C6.44906 3.65667 6.61723 3.51635 6.73568 3.33749C6.85413 3.15863 6.91769 2.94903 6.91855 2.73451V2.62118C6.91855 2.26755 7.05902 1.92841 7.30907 1.67837C7.55912 1.42832 7.89826 1.28784 8.25188 1.28784C8.6055 1.28784 8.94464 1.42832 9.19469 1.67837C9.44474 1.92841 9.58522 2.26755 9.58522 2.62118V2.68118C9.58607 2.8957 9.64964 3.10529 9.76809 3.28415C9.88654 3.46301 10.0547 3.60333 10.2519 3.68784C10.453 3.77659 10.676 3.80306 10.8923 3.76384C11.1085 3.72463 11.3081 3.62153 11.4652 3.46784L11.5052 3.42784C11.629 3.30387 11.7761 3.20553 11.938 3.13843C12.0998 3.07133 12.2733 3.03679 12.4485 3.03679C12.6238 3.03679 12.7973 3.07133 12.9591 3.13843C13.121 3.20553 13.2681 3.30387 13.3919 3.42784C13.5159 3.55167 13.6142 3.69872 13.6813 3.86059C13.7484 4.02245 13.7829 4.19595 13.7829 4.37118C13.7829 4.5464 13.7484 4.7199 13.6813 4.88176C13.6142 5.04363 13.5159 5.19068 13.3919 5.31451L13.3519 5.35451C13.1982 5.51163 13.0951 5.71119 13.0559 5.92745C13.0167 6.14371 13.0431 6.36676 13.1319 6.56784V6.62118C13.2164 6.81835 13.3567 6.98652 13.5356 7.10497C13.7144 7.22342 13.924 7.28699 14.1385 7.28784H14.2519C14.6055 7.28784 14.9446 7.42832 15.1947 7.67837C15.4447 7.92842 15.5852 8.26755 15.5852 8.62118C15.5852 8.9748 15.4447 9.31394 15.1947 9.56398C14.9446 9.81403 14.6055 9.95451 14.2519 9.95451H14.1919C13.9774 9.95536 13.7678 10.0189 13.5889 10.1374C13.41 10.2558 13.2697 10.424 13.1852 10.6212V10.6212Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1_1508">
+                        <rect width="16" height="16" fill="white" transform="translate(0.251831 0.621094)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                                                   
+                        <span class="new-indicator pulsate"></span>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="heading">
+                                <div class="heading-left">
+                                    <h6 class="heading-title ">Notificación</h6>
+                                </div>
+                                <div class="heading-right">
+                                    <a href="#" class="notification-link"> Ver todas </a>
+                                </div>
+                            </div>
+                            <ul class="notification-list">
+                                <li><a class="notification-item">
+                                    <div class="img-left me-2">
+                                        <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                    </div>
+                                    <div class="user-content">
+                                        <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                        <p class="time">1 hora antes</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Fin Icono 1-->
+                  <!--Icono 2-->
+                    <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                        <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_1512)">
+                            <path d="M9.24559 14.6213C9.12838 14.8233 8.96015 14.991 8.75774 15.1076C8.55533 15.2242 8.32584 15.2856 8.09225 15.2856C7.85867 15.2856 7.62918 15.2242 7.42677 15.1076C7.22436 14.991 7.05613 14.8233 6.93892 14.6213M12.0923 5.95459C12.0923 4.89372 11.6708 3.87631 10.9207 3.12616C10.1705 2.37602 9.15312 1.95459 8.09225 1.95459C7.03139 1.95459 6.01397 2.37602 5.26383 3.12616C4.51368 3.87631 4.09225 4.89372 4.09225 5.95459C4.09225 10.6213 2.09225 11.9546 2.09225 11.9546H14.0923C14.0923 11.9546 12.0923 10.6213 12.0923 5.95459Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_1512">
+                            <rect width="16" height="16" fill="white" transform="translate(0.0922546 0.621094)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                            <span class="new-indicator pulsate"></span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="heading">
+                                    <div class="heading-left">
+                                        <h6 class="heading-title ">Notificación</h6>
+                                    </div>
+                                    <div class="heading-right">
+                                        <a href="#" class="notification-link"> Ver todas </a>
+                                    </div>
+                                </div>
+                                <ul class="notification-list">
+                                    <li><a class="notification-item">
+                                        <div class="img-left me-2">
+                                            <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                        </div>
+                                        <div class="user-content">
+                                            <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                            <p class="time">1 hora antes</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!--Fin Icono 2-->
+                        <!-- Icono 3-->
+                        <div class="dropdown is-spaced is-dots is-right dropdown-trigger">
+                          <div tabindex="0" class="is-trigger" aria-haspopup="true">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M2.93266 2.62109H7.59933V7.28776H2.93266V2.62109ZM10.266 2.62109H14.9327V7.28776H10.266V2.62109ZM10.266 9.95443H14.9327V14.6211H10.266V9.95443ZM2.93266 9.95443H7.59933V14.6211H2.93266V9.95443Z" stroke="#6E787C" stroke-width="1.65337" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>                              
+                              <span class="new-indicator pulsate"></span>
+                          </div>
+                          <div class="dropdown-menu">
+                              <div class="dropdown-content">
+                                  <div class="heading">
+                                      <div class="heading-left">
+                                          <h6 class="heading-title ">Notificación</h6>
+                                      </div>
+                                      <div class="heading-right">
+                                          <a href="#" class="notification-link"> Ver todas </a>
+                                      </div>
+                                  </div>
+                                  <ul class="notification-list">
+                                      <li><a class="notification-item">
+                                          <div class="img-left me-2">
+                                              <img class="user-photo" alt="" src="../assets/img/nav/pers/02.png">
+                                          </div>
+                                          <div class="user-content">
+                                              <p class="user-info"><span class="name">Maria C.</span> Dejó un comentario. </p>
+                                              <p class="time">1 hora antes</p>
+                                          </div>
+                                      </a>
+                                  </li>
+                                  <li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Pamela S.</span> Subido un archivo. </p><p class="time">1 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/01.jpg"></div><div class="user-content"><p class="user-info"><span class="name">Tara S.</span> Te envié un mensaje </p><p class="time">3 hora antes</p></div></a></li><li><a class="notification-item"><div class="img-left me-2"><img class="user-photo" alt="" src="../assets/img/nav/pers/02.png"></div><div class="user-content"><p class="user-info"><span class="name">Francisca M.</span> Dejó un comentario. </p><p class="time">3 hora antes</p></div></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        <!--Fin Icono 3-->
+                </div>
+            </div>
+            <!--Termino Header-->
+        </div>
+        <div class="col-12 d-flex mt-3 mt-sm-0 mt-lg-5 flex-sm-row justify-content-between align-items-center">
+          <div class="">
+            <div class="titlealluser mb-4">
+               <h2 class="">Nuevos Usuarios</h2>
+            </div>
+        </div>
+      </div>
+          <div class="col-12">
+           <div class="card p-3 d-flex">
+          <h5 class="pl-lg-3 subtitlecreateuser">Datos de usuario</h5>
+         
+        <div class="formusers">
+          <div>
+            <label for="basic-url" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          <div>
+            <label for="basic-url" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          <div>
+            <label for="basic-url" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          <div>
+            <label for="basic-url" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          <div>
+            <label for="basic-url" class="form-label">Telefono</label>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+        </div>
+           </div>
+          </div>
+          <div class="col-12 mt-4">
+            <div class="card p-3 d-flex">
+         <div class="formcreateuser">
+           <div class="mb-2 mb-md-2 mb-lg-0">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Estado</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+           </div>
+           <div class="botonesformuser  mt-2 mt-md-2 mt-lg-0"> 
+            <button class="btn orange order-md-1 me-lg-4 mt-lg-0">Cancelar</button>
+           </div>
+           <div class="mt-2 mt-md-2 mt-lg-0"> 
+            <button class="btn bluelight order-md-1 me-lg-4 mt-lg-0">Guardar</button>
+           </div>
+         </div>
+            </div>
+           </div>
+    </div>
+    <!--Termino Contendio-->
+    <!--alerta de carga-->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast succes" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                Guardamos con exito tus avances.
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+    <!--Termino alerta de carga-->
+    
+
+
+
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/multiform.js" defer></script>
+    <script src="../assets/js/toastTrigger.js"></script>
+     <!-- Load D3: -->
+     <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    
+</body>
+</html>

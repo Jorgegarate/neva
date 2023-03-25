@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    border: none;
+}
+.contenedor{
+    height: 1056px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.body-presentacion{
+    background-color: #15ACC0;
+    margin: 0px;
+}
+
+.logo-presentacion{
+    width: 430px;
+    object-fit: contain;
+}
+.title-presentacion{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-family: 'roboto';
+}
+.subtitle-presentacion{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'roboto';
+}
+.table1 td{
+    align-content: end;
+ }
+.titulotable{
+    padding: 10px;
+    font-size: 12px;
+    background-color: #283252;
+    color: white
+}
+.seccion {
+    display: flex;
+}
+.graficotabla{
+    width:80px !important;
+    height: 30px !important;
+}
+table, th, tr {
+    border: 1px solid #283252;
+    border-collapse: collapse;
+}
+.tipoempresa{
+    display: flex;
+    align-items: end;
+}
+.tipoempresa img{
+    width: 80px;
+}
+.title-madurez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #283252;
+}
+
+.titulomadurez{
+    font-size: 80px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.textos-madurez h6{
+    font-size: 25px;
+    font-weight: 600;
+    color: #283252;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 3.5rem;
+}
+.back-cajas{
+    display: flex;
+    justify-content: center;
+}
+.cajas-madurez-5{
+    padding: .4rem;
+    background-color:#283252;
+    color: white;
+}
+.cajas-madurez-4{
+    padding: .4rem;
+    background-color:#16C59B;
+    color: #283252;
+}
+.cajas-madurez-3{
+    padding: .4rem;
+    background-color:#76EFFF;
+    color: #283252;
+}
+.cajas-madurez-2{
+    padding: .4rem;
+    background-color:#FFC610;
+    color: #283252;
+}
+.cajas-madurez-1{
+    padding: .4rem;
+    background-color:#DC3545;
+    color: #283252;
+}
+.subtitle-madurez{
+    text-align: center;
+}
+.subtitle-madurez h4{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subtitle-madurez p{
+    font-size: 14px;
+    color: #283252;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.textograficatablas p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #283252;
+}
+.back-valores{
+    display: flex;
+    gap: 20px;
+}
+.valores{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.circulovalor-green{
+    font-size: 9px;
+    padding: 10px 6px;
+    border: solid 1px #16C59B;
+    border-radius: 50%;
+    color: #283252;
+    font-weight: 600;
+    background-color: #16C59B;
+    margin-bottom: 0
+}
+.circulovalor-blue{
+    font-size: 9px;
+    padding: 10px 6px;
+    border: solid 1px #15ACC0;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    background-color: #15ACC0;
+    margin-bottom: 0
+}
+.circulovalor-red{
+    font-size: 9px;
+    padding: 10px 6px;
+    border: solid 1px #DC3545;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    background-color: #DC3545;
+    margin-bottom: 0
+}
+.valorestitulomadurez{
+    font-size: 60px;
+    color: #283252;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: .6rem;
+    margin-top: .6rem;
+}
+.valoressubtitle-madurez{
+    text-align: center;
+}
+.valoressubtitle-madurez h4{
+    font-size: 14px;
+    color: #283252;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.valoressubtitle-madurez p{
+    font-size: 10px;
+    color: #283252;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.valorestabla{
+    display: flex;
+    align-items: flex-start;
+}
+.seccion6{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;  
+}  
+.title-valores{
+    font-size: 18px;
+    color:#283252;
+    font-weight: 500;
+}
+.subtitle-valores{
+    font-size: 13px;
+    color:#283252;
+    font-weight: 500;
+}
+.seccion7{
+    display: flex;
+    justify-content: center;
+}
+.valoresgraficotablas{
+    width: 500px;
+
+}
+.titulotablewhite {
+    padding: 20px;
+    background-color: white;
+    color: #283252;
+}
+.table2 td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: end;
+ }
+ .porcentajeaprob{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ .porcentajesucces{
+  color:#15ACC0;
+ }
+ .porcentajewarning{
+    color: #ED9A37;
+ }
+ .table3 td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: end;
+ }
+ .table3, th{
+    border: 1px solid transparent !important;
+    border-collapse: collapse !important;
+ }
+ .titulotableaqua{
+    padding: 20px;
+    background-color: #283252;
+    color: white;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.w-50 {
+    width: 50%;
+}
+.w-40 {
+    width: 40%;
+}
+.h-100 {
+    height: 100%;
+}
+.p-1 {
+    padding: 1rem;
+}
+.pl-2 {
+    padding-left: 2rem;
+}
+.px-1 {
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+.py-1{
+    padding-left: 1rem;
+    padding-right:1rem;
+}
+.px-2 {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.py-2{
+    padding-left: 2rem;
+    padding-right:2rem;
+}
+.px-3 {
+    padding-top:3rem;
+    padding-bottom: 3rem;
+}
+.py-3{
+    padding-left: 3rem;
+    padding-right:3rem;
+}
+.pt-1 {
+    padding-top: 1rem;
+}
+.pt-3 {
+    padding-top: 3rem;
+}
+.pb-2 {
+    padding-bottom: 2rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-5 {
+    margin: 5rem;
+}
+.text-justify {
+    text-align:justify;
+}
+.bb {
+    top: -40px;
+}
+.flex-row {
+    flex-direction: row;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.w-100 {
+    width: 100%;
+}
+.w-80 {
+    width: 80%;
+}
+.primary {
+    background-color: #15ACC0;
+}
+td {
+    font-size: .7rem;
+}
+h2 {
+    margin: 0;
+}
+.areas .bb {
+ left: -140px;
+}
