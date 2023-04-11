@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'roboto';
     border: none;
+    position: relative;
+    left: -8px;
+
 }
 .contenedor{
     height: 1056px;
@@ -128,6 +131,11 @@ table, th, tr {
     color: #283252;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+.textograficatablas h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #283252;
 }
 .textograficatablas p{
     font-size: 14px;
@@ -352,8 +360,48 @@ td {
     font-size: .7rem;
 }
 h2 {
+    color: #283252;
     margin: 0;
 }
 .areas .bb {
  left: -140px;
+}
+.center {
+    color: #283252;
+    text-align: center;
+}
+h2 {
+    font-weight: 18px;
+    font-weight: 500;
+}
+.margin-center {
+    margin: 0 auto;
+}
+
+/**/
+.back-green {
+    background-color: #16C59B;
+    border-color: #16C59B;
+    color: white;
+}
+.back-blue {
+    background-color: #283252;
+    border-color: #283252;
+    color: white;
+}
+.number-leyend {
+    padding: 2rem;
+}
+.back-yellow {
+    background-color: #FFC610;
+    border-color: #FFC610;
+}
+.back-skyblue {
+    background-color: #76EFFF;;
+    border-color: #76EFFF;;
+}
+.back-red {
+    background-color: #DC3545;
+    background-color: #DC3545;
+
 }
